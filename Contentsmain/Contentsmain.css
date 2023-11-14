@@ -1,0 +1,8 @@
+
+.left-content{width:45%;padding:20px;text-align: justify}
+.left-content h4{margin-bottom:16px}
+.right-content{width:55%;}
+.right-content img{    width: 100%;
+    border-radius: 12px;
+    margin-top: 45px;}
+    .content-main{display:flex;}
