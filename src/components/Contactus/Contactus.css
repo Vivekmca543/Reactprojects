@@ -1,0 +1,5 @@
+.contactus-container{width:90%;margin:130px auto}
+.input-felds{display:flex;margin-bottom: 15px;}
+.input-felds label{width:150px;}
+.input-felds input,.input-felds select{width:250px;height:30px;padding-left:8px;}
+.contactus-container button{width: 150px;float: left;margin-left: 150px;}
