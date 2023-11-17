@@ -74,12 +74,14 @@ module.exports = {
     },
     output: {
         filename: '[name].bundle.js',
-        publicPath: "./",
         crossOriginLoading:"anonymous",
         path: DIST,
-        chunkFilename: "[name].chuk.js",
+        chunkFilename: "[name].chuk.js"
     },
     stats: 'errors-only',
+    devServer: {
+        historyApiFallback: true
+      },
     plugins: [
         new ProgressBarPlugin(),
         new CaseSensitivePathsPlugin(),
@@ -101,6 +103,7 @@ module.exports = {
             "@src": SRC,
         },
     },
+    
     module: {
         rules: [htmlLoader, fileLoader, cssLoader, urlLoader, babelLoader, fontLoader],
     },

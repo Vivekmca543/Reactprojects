@@ -2,7 +2,8 @@ import React from "react";
 import Esfeatures from "./Esfeatures.css";
 
 const Esfeatures2 = ()=>{
-    return(
+   
+    return(        
         <>
         <div className="esfeatures-container">
             <h4>Es Features</h4>

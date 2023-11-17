@@ -9,6 +9,8 @@ body {
     font-size:16px;
     line-height: 26px;
   }
+  .container .footer{display:none;}
+  .container .card-container{margin-top:30px;}
 .card-content{background-color: #ededed;display:flex;margin-top:30px;}
 .headermenu-container{
   position:fixed;

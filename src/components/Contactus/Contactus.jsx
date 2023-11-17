@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contactus.css";
+import Footer from "./../Footer/Footer";
 const Contactus = ()=>{
 return (
     <>
@@ -40,6 +41,7 @@ return (
         <button>Submit</button>
         </form>
     </div>
+    <Footer />
     </>
 )
 }
